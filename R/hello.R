@@ -17,6 +17,6 @@ hello <- function() {
   print("Hello, world!")
 }
 
-add <- function(x, y) {
+add <- function(x, y = 1) {
   return(x+y)
 }
